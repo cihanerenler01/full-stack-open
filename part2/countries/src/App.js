@@ -27,7 +27,6 @@ function App() {
       .get(`${weather_url}${city}&appid=${api_key}&units=metric`)
       .then((res) => {
         setWeather(res);
-        console.log(res);
       });
   };
 
